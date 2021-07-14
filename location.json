@@ -1,0 +1,28 @@
+{ 
+    "_id" : ObjectId("60e419875a12d07c2bef0657"), 
+    "type" : "InPerson", 
+    "type_param" : true, 
+    "app_integration_need" : true, 
+    "icon" : null, 
+    "icon_path" : null, 
+    "active" : true, 
+    "deleted" : false, 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "name" : "InPerson"
+}
+{ 
+    "_id" : ObjectId("60e57d1d5a12d07c2bef0792"), 
+    "type" : "Video", 
+    "type_param" : true, 
+    "app_integration_need" : true, 
+    "icon" : null, 
+    "icon_path" : null, 
+    "active" : true, 
+    "deleted" : false, 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "name" : "Teams"
+}

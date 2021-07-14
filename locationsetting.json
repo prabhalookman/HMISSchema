@@ -1,0 +1,49 @@
+{ 
+    "_id" : ObjectId("60e4238e5a12d07c2bef0676"), 
+    "created_by" : ObjectId("60e40b0d5a12d07c2bef0627"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "location_id" : ObjectId("60e419875a12d07c2bef0657"), 
+    "active" : true, 
+    "deleted" : false, 
+    "inperson" : {
+        "buinsess_address" : true, 
+        "buinsess_id" : ObjectId("60e423e35a12d07c2bef0689"), 
+        "client_address" : true
+    }
+}
+{ 
+    "_id" : ObjectId("60e5811c5a12d07c2bef0797"), 
+    "location_id" : ObjectId("60e57ccf5a12d07c2bef0791"), 
+    "oncall" : {
+        "client_will_call" : true, 
+        "staff_will_call" : true
+    }, 
+    "active" : true, 
+    "deleted" : false, 
+    "created_by" : ObjectId("60e40b0d5a12d07c2bef0627"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}
+{ 
+    "_id" : ObjectId("60e5814b5a12d07c2bef0798"), 
+    "location_id" : ObjectId("60e57d1d5a12d07c2bef0792"), 
+    "video" : {
+        "integration_id" : "1397814", 
+        "type" : "Zoom"
+    }, 
+    "active" : true, 
+    "deleted" : false, 
+    "created_by" : ObjectId("60e40b0d5a12d07c2bef0627"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}

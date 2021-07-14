@@ -1,0 +1,22 @@
+{ 
+    "_id" : ObjectId("60e6d8f65a12d07c2bef0803"), 
+    "currency" : "usd", 
+    "price_type" : "Tickets", 
+    "service-pricing-by-staff" : true, 
+    "name" : "raj", 
+    "staff_id" : ObjectId("60e426b25a12d07c2bef06b5"), 
+    "price-type" : "fixed", 
+    "non-discounted-price" : 25.0, 
+    "retail-price" : 25.0, 
+    "special_price" : 100.1, 
+    "duration_hours" : NumberInt(10), 
+    "duration_minutes" : NumberInt(10), 
+    "buffer_before_min" : NumberInt(10), 
+    "buffer_after_min" : NumberInt(10), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "created_by" : ObjectId("60e2fd865a12d07c2bef05d4"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000")
+}

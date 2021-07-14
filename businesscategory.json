@@ -1,0 +1,16 @@
+{ 
+    "_id" : ObjectId("60e3012a5a12d07c2bef060e"), 
+    "category_name" : "Hospital", 
+    "parant_category_id" : ObjectId("60e3012a5a12d07c2bef060e"), 
+    "icon" : null, 
+    "icon_path" : null, 
+    "type" : "root or custom", 
+    "active" : true, 
+    "deleted" : false, 
+    "accessible" : true, 
+    "created_by" : ObjectId("60e2fd865a12d07c2bef05d4"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}
