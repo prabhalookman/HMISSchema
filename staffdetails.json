@@ -1,0 +1,103 @@
+{ 
+    "_id" : ObjectId("60e575925a12d07c2bef0780"), 
+    "is_service_provider" : true, 
+    "booking_url" : "https://hmis.com/anand-32/15min-2", 
+    "email_signature" : null, 
+    "deafult_calendar_view" : "Day", 
+    "business_timings" : true, 
+    "business_id" : [
+        ObjectId("60e423e35a12d07c2bef0689")
+    ], 
+    "staff_commission" : true, 
+    "paid_plan_commission" : true, 
+    "product-commission" : null, 
+    "service_commission" : null, 
+    "voucher_commission" : null, 
+    "is_sync_enabled" : true, 
+    "sync" : [
+        {
+            "type" : "google_calender", 
+            "key" : "sdsd"
+        }, 
+        {
+            "type" : "microsoft_outlook", 
+            "key" : "sdsd"
+        }, 
+        {
+            "type" : "microsoft_365", 
+            "key" : "sdsd"
+        }
+    ], 
+    "workspace_id" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "created_by" : ObjectId("60e40b0d5a12d07c2bef0627"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "address_ids" : [
+        ObjectId("60e584305a12d07c2bef0799")
+    ], 
+    "timing_ids" : [
+        ObjectId("60e423e35a12d07c2bef0689")
+    ], 
+    "active" : true, 
+    "delete" : true, 
+    "invitation_status_accept" : true, 
+    "is_login" : true, 
+    "sorting_id" : NumberInt(1), 
+    "event_ids" : [
+        "1397814", 
+        "1397814"
+    ]
+}
+{ 
+    "_id" : ObjectId("60e6d68b5a12d07c2bef07d5"), 
+    "invitation-status" : "accepted", 
+    "is_service_provider" : true, 
+    "booking_url" : "https://hmis.com/anand-32/15min-2", 
+    "sorting-id" : NumberInt(1), 
+    "is_active" : "1", 
+    "email_signature" : null, 
+    "deafult_calendar_view" : "Day", 
+    "services_id" : [
+        "1397814", 
+        "1397814"
+    ], 
+    "business_timings" : true, 
+    "business_id" : [
+        ObjectId("60e423e35a12d07c2bef0689")
+    ], 
+    "timings" : [
+        ObjectId("60e423e35a12d07c2bef0689")
+    ], 
+    "staff_commission" : true, 
+    "paid_plan_commission" : true, 
+    "product-commission" : null, 
+    "service_commission" : null, 
+    "voucher_commission" : null, 
+    "is_sync_enabled" : true, 
+    "sync" : [
+        {
+            "type" : "google_calender", 
+            "key" : "sdsd"
+        }, 
+        {
+            "type" : "microsoft_outlook", 
+            "key" : "sdsd"
+        }, 
+        {
+            "type" : "microsoft_365", 
+            "key" : "sdsd"
+        }
+    ], 
+    "workspace_id" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "created_by" : ObjectId("60e40b0d5a12d07c2bef0627"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}

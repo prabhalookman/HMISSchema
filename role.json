@@ -1,0 +1,20 @@
+{ 
+    "_id" : ObjectId("60e427945a12d07c2bef06c4"), 
+    "name" : "Doctor", 
+    "active" : true, 
+    "delete" : true, 
+    "is_system_role" : true, 
+    "system_name" : "DOCTOR", 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "createdOn_utc" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "permission_ids" : [
+        ObjectId("60e427945a12d07c2bef06c4")
+    ]
+}
+{ 
+    "_id" : ObjectId("60e6aad4e23d1ba9cea2c97b"), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "name" : "Receptionist", 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}

@@ -1,0 +1,43 @@
+{ 
+    "_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "name" : "workspace 1", 
+    "type" : "Event", 
+    "new_business" : true, 
+    "color_code" : "9999", 
+    "display_name" : "LkmSpa", 
+    "display_order" : NumberInt(1), 
+    "time_zone" : "Kolkatta/Chennai", 
+    "default_language" : "en", 
+    "calendar_view_settings" : null, 
+    "active" : true, 
+    "delete" : true, 
+    "accessible" : true, 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "created_by" : ObjectId("60e2fd865a12d07c2bef05d4"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "is_owner" : true
+}
+{ 
+    "_id" : ObjectId("60e6a082e23d1ba9cea18ace"), 
+    "display_name" : "WorkSpace 2", 
+    "default_language" : "en", 
+    "accessible" : true, 
+    "display_order" : NumberInt(1), 
+    "color_code" : "#42526E", 
+    "name" : "WorkSpace 2", 
+    "active" : true, 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}
+{ 
+    "_id" : ObjectId("60e6a1c1e23d1ba9cea1b148"), 
+    "color_code" : "#42526E", 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "default_language" : "en", 
+    "accessible" : true, 
+    "display_order" : NumberInt(1), 
+    "name" : "WorkSpace 2", 
+    "active" : true, 
+    "display_name" : "WorkSpace 2"
+}

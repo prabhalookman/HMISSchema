@@ -1,0 +1,22 @@
+{ 
+    "_id" : ObjectId("60e6d8275a12d07c2bef07ef"), 
+    "name" : "Teeth Cleaning", 
+    "price" : 10.2, 
+    "variant" : [
+        {
+            "name" : "Gel", 
+            "price" : 10.25
+        }
+    ], 
+    "show_multiple_time" : true, 
+    "once_per_order" : true, 
+    "event_ids" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "workspace_ids" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "active" : true, 
+    "delete" : true, 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}

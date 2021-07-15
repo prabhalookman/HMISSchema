@@ -1,0 +1,11 @@
+{ 
+    "_id" : ObjectId("60e43b015a12d07c2bef06ec"), 
+    "time_zone" : "Asia/kolkatta", 
+    "timeFormat" : NumberInt(12), 
+    "date_format" : "dd-MM-YYYY", 
+    "first_day" : NumberInt(1), 
+    "business_hour_start" : NumberInt(10), 
+    "business_hour_end" : NumberInt(6), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602"), 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c")
+}

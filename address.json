@@ -1,0 +1,54 @@
+{ 
+    "_id" : ObjectId("60e40eab5a12d07c2bef0648"), 
+    "address1" : "chennai", 
+    "address2" : "chennai", 
+    "city" : "sdsd", 
+    "state" : "sdad", 
+    "country" : "sadsad", 
+    "zipCode" : "600015", 
+    "latitude" : "13.0826802", 
+    "longitude" : "80.2707184", 
+    "type" : "Business/Home/Staff/Customer", 
+    "business_branch" : true, 
+    "phone" : [
+        {
+            "name" : "Business/Personal/Home", 
+            "type" : "Mobile/Landline", 
+            "country_code" : "India", 
+            "no" : "98989898", 
+            "Ext" : "12"
+        }, 
+        {
+            "name" : "Business/Personal/Home", 
+            "type" : "Mobile/Landline", 
+            "country_code" : "India", 
+            "no" : "98989898"
+        }
+    ], 
+    "email" : "anand@lookman.in", 
+    "customer_id" : null, 
+    "account_status" : "Active", 
+    "active" : true, 
+    "accessible" : true, 
+    "delete" : true, 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "workspace_id" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "created_by" : ObjectId("60e40b0d5a12d07c2bef0627"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "default_address" : true, 
+    "business_head_ofice" : true
+}
+{ 
+    "_id" : ObjectId("60e6b151e23d1ba9cea38a91"), 
+    "country" : "India", 
+    "email" : "maadhuri@lookman.in", 
+    "business_head_ofice" : true, 
+    "city" : "Chennai", 
+    "address1" : "3rd street, CIT Nagar", 
+    "address2" : "Nandanam", 
+    "state" : "Tamilnadu"
+}

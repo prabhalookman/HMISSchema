@@ -1,0 +1,13 @@
+{ 
+    "_id" : ObjectId("60e564445a12d07c2bef073e"), 
+    "default" : true, 
+    "password" : "564ED78CCAADED81CE8000F534A48029153CAF6C", 
+    "password_format_id" : 1.0, 
+    "password_salt" : "k2gafTk=", 
+    "created_at" : ISODate("2021-07-05T12:34:29.364+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "password_change_dateUtc" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "created_from" : "system/forget/creation", 
+    "password_expire_dateUtc" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "password_expired" : true
+}

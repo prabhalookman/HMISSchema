@@ -1,0 +1,83 @@
+{ 
+    "_id" : ObjectId("60e426b25a12d07c2bef06b5"), 
+    "title" : "Dr.", 
+    "name" : "Prabakaran S", 
+    "slug" : "prabakaran_s", 
+    "first_name" : "Provider name 1", 
+    "last_name" : "Provider name 1", 
+    "phone" : [
+        {
+            "name" : "Business/Personal/Home", 
+            "type" : "Mobile/Landline", 
+            "country_code" : "India", 
+            "no" : "98989898", 
+            "is_verified" : true
+        }, 
+        {
+            "name" : "Business/Personal/Home", 
+            "type" : "Mobile/Landline", 
+            "country_code" : "India", 
+            "no" : "98989898", 
+            "is_verified" : true
+        }
+    ], 
+    "email" : "anand@lookman.in", 
+    "is_email_verified" : true, 
+    "email_verified_date_time" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "employement_from" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "employement_to" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "experience_month" : NumberInt(4), 
+    "experience_year" : NumberInt(4), 
+    "gender" : "Male", 
+    "description" : "personal and retailer", 
+    "display_name" : "LkmSpa", 
+    "color_code" : "9999", 
+    "avatar_or_icon" : "", 
+    "avatar_or_icon_path" : "", 
+    "showSocialShare" : true, 
+    "social_network" : [
+        {
+            "network" : "Twitter", 
+            "link" : "https://"
+        }, 
+        {
+            "network" : "Facebook", 
+            "link" : "https://"
+        }
+    ], 
+    "sorting-id" : NumberInt(1), 
+    "is_active" : true, 
+    "site_owener" : true, 
+    "workspace_ids" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "created_by" : ObjectId("60e40b0d5a12d07c2bef0627"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "staff_detail_id" : [
+        ObjectId("60e575925a12d07c2bef0780")
+    ], 
+    "user_id" : ObjectId("60e40b0d5a12d07c2bef0627")
+}
+{ 
+    "_id" : ObjectId("60e5b92c216dec6d8fdde453"), 
+    "description" : "Sample", 
+    "email" : "basha@gmail.com", 
+    "first_name" : "Basheer", 
+    "display_name" : "BASHA", 
+    "last_name" : "Ahamed", 
+    "name" : "Basheer", 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "color_code" : "#42526E", 
+    "workspace_ids" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "gender" : "Male"
+}
+{ 
+    "_id" : ObjectId("60e69aa7e23d1ba9cea0dfd1"), 
+    "description" : "Desc", 
+    "name" : "Maadhuri"
+}

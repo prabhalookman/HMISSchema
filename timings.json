@@ -1,0 +1,46 @@
+{ 
+    "_id" : ObjectId("60e40d425a12d07c2bef063a"), 
+    "time_zone" : "Asia/kolkatta", 
+    "type" : "Business/Staff/Service", 
+    "business_hour" : true, 
+    "custom_hour" : false, 
+    "name" : "Time 1", 
+    "work_day_id" : NumberInt(1), 
+    "work_day_name" : "Sunday", 
+    "start_time" : "9.10", 
+    "end_time" : "9.10", 
+    "breaktime" : [
+        {
+            "start_time" : "9.10", 
+            "end_time" : "10.10"
+        }, 
+        {
+            "start_time" : "9.10", 
+            "end_time" : "10.10"
+        }
+    ], 
+    "work_day_duration" : NumberInt(8), 
+    "service_ids" : [
+        ObjectId("60e2eead5a12d07c2bef058c"), 
+        ObjectId("60e2eead5a12d07c2bef058c")
+    ], 
+    "is_override_block" : false, 
+    "recurringRule" : {
+        "freq" : "WEEKLY", 
+        "repeatEvery" : NumberInt(1), 
+        "until" : ISODate("2021-06-24T08:40:53.973+0000")
+    }, 
+    "created_by" : ObjectId("60e2fd865a12d07c2bef05d4"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "workspace_ids" : [
+        ObjectId("60e300635a12d07c2bef0602")
+    ], 
+    "site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "include_weekends" : false, 
+    "timing_order" : NumberInt(1), 
+    "location_setting_ids" : [
+        ObjectId("60e4238e5a12d07c2bef0676")
+    ]
+}
