@@ -6,7 +6,7 @@
     "accessible" : true, 
     "active" : true, 
     "suspended" : true, 
-    "delete" : true,    
+    "delete" : true, 
     "payment_status_id" : "wwew", 
     "payment_status" : "Pending", 
     "subcription_id" : ObjectId("60d2f56e5a12d07c2bef04ae"), 
