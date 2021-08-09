@@ -1,0 +1,90 @@
+{ 
+    
+  
+    "OrderNumber" : 1, 
+    "Code" : "3Y404XVE", 
+    
+    "customer_id" : "610cebbe3c348676efdf838a", 
+   
+    "order_status" : "Paid/Cancel/Pending/Return", 
+    "shipping_status" : "Shipped" ,
+    "payment_status_Id" :  ObjectId("60e6daee5a12d07c2bef080f"), 
+    "payment_method_system_name" : "Payments.CashOnDelivery", 
+    "customer_currency_code" : "USD", 
+    "primary_currency_code" : "USD", 
+    "currency_rate" : { "$numberDecimal" : "1" }, 
+    "rate" : { "$numberDecimal" : "1" }, 
+    "customer_tax_display_type_id" : 0, 
+    "vat_number" : null, 
+    "vat_number_status_id" : 0, 
+    "company_name" : null, 
+    "customer_email" : null, 
+    "first_name" : null, 
+    "Last_name" : null, 
+    "order_subtotal_incl_tax" : { "$numberDecimal" : "300" }, 
+    "order_subtotal_excl_tax" : { "$numberDecimal" : "300" }, 
+    "order_subTotal_discount_incl_tax" : { "$numberDecimal" : "0" }, 
+    "order_subTotal_discount_excl_tax" : { "$numberDecimal" : "0" }, 
+    "order_shipping_incl_tax" : { "$numberDecimal" : "0" }, 
+    "order_shipping_excl_tax" : { "$numberDecimal" : "0" }, 
+    "payment_method_additional_fee_incl_tax" : { "$numberDecimal" : "0" }, 
+    "payment_method_additional_fee_excl_tax" : { "$numberDecimal" : "0" }, 
+    "order_tax" : { "$numberDecimal" : "0" }, 
+    "order_discount" : { "$numberDecimal" : "0" }, 
+    "order_total" : { "$numberDecimal" : "300" }, 
+    "refunded_amount" : { "$numberDecimal" : "0" }, 
+    "reward_points_were_added" : false, 
+    "calc_reward_points" : 0, 
+    "checkout_status" : "Checkout: Shipping [+$ 100.00 incl tax]", 
+   
+    "customer_ip" : "127.0.0.1", 
+    "allow_storing_credit_card_number" : false, 
+    "card_type" : "", 
+    "card_name" : "", 
+    "Ccrd_number" : "", 
+    "masked_credit_card_number" : "", 
+    "card_cvv2" : "", 
+    "card_expiration_month" : "", 
+    "card_expiration_year" : "", 
+    "authorization_transaction_id" : null, 
+    "authorization_transaction_code" : null, 
+    "authorization_transaction_result" : null, 
+    "capture_transaction_id" : null, 
+    "capture_transaction_result" : null, 
+    "subscription_transaction_id" : null, 
+    "paid_date" : null, 
+    "shipping_method" : null, 
+    "shipping_rate_computation_mMethod_name" : null, 
+   
+    "BillingAddress" : {
+        "_id" : ObjectId("60e40eab5a12d07c2bef0648"), 
+         
+        "first_name" : "Anand", 
+        "last_name" : "S", 
+       
+        "company" : null, 
+        "vat_vumber" : null, 
+       
+    }, 
+    "shipping_address" : ObjectId("60e40eab5a12d07c2bef0648"), 
+    "pickup_point" : null, 
+    "redeemed_reward_points_entry" : null, 
+    "OrderItems" : [ObjectId("610d08675b741647c49dd262")
+      
+    ], 
+    "order_taxes" : {
+            "_id" : "610cf13ab43f81e8f0ce6bf1", 
+            "percent" : { "$numberDecimal" : "0" }, 
+            "amount" : { "$numberDecimal" : "0" }
+        },
+     
+    "order_tags" : [
+
+    ],
+	"site_id" : ObjectId("60e2eead5a12d07c2bef058c"), 
+    "created_by" : ObjectId("60e2fd865a12d07c2bef05d4"), 
+    "created_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "updated_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "deleted_at" : ISODate("2021-06-24T08:40:53.973+0000"), 
+    "workspace_id" : ObjectId("60e300635a12d07c2bef0602")
+}
