@@ -1,0 +1,43 @@
+{
+  "title": "StaffDetail",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "address_ids": {
+      "bsonType": "objectId"
+    },
+    "booking_url": {
+      "bsonType": "string"
+    },
+    "deafult_calendar_view": {
+      "bsonType": "string"
+    },
+    "event_ids": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+    },
+    "sync": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "key": {
+            "bsonType": "string"
+          },
+          "type": {
+            "bsonType": "string"
+          }
+        }
+      }
+    },
+    "timing_ids": {
+      "bsonType": "objectId"
+    },
+    "workspace_id": {
+      "bsonType": "objectId"
+    }
+  }
+}

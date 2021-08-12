@@ -1,0 +1,43 @@
+{
+  "title": "Address",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "address1": {
+      "bsonType": "string"
+    },
+    "default_address": {
+      "bsonType": "bool"
+    },
+    "email": {
+      "bsonType": "string"
+    },
+    "phone": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "Ext": {
+            "bsonType": "string"
+          },
+          "name": {
+            "bsonType": "string"
+          },
+          "no": {
+            "bsonType": "string"
+          },
+          "type": {
+            "bsonType": "string"
+          }
+        }
+      }
+    },
+    "site_id": {
+      "bsonType": "objectId"
+    },
+    "workspace_id": {
+      "bsonType": "objectId"
+    }
+  }
+}

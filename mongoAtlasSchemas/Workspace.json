@@ -1,0 +1,17 @@
+{
+  "title": "Workspace",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "site_id": {
+      "bsonType": "objectId"
+    },
+    "time_zone": {
+      "bsonType": "string"
+    }
+  }
+}

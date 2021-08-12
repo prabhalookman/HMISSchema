@@ -1,0 +1,17 @@
+{
+  "title": "Site",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "default_language": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "subcription_id": {
+      "bsonType": "objectId"
+    }
+  }
+}

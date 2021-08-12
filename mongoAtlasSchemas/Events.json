@@ -1,0 +1,46 @@
+{
+  "title": "Event",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "event_category_id": {
+      "bsonType": "objectId"
+    },
+    "included": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "name": {
+            "bsonType": "string"
+          },
+          "price": {
+            "bsonType": "double"
+          }
+        }
+      }
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "payment_type": {
+      "bsonType": "string"
+    },
+    "site_id": {
+      "bsonType": "objectId"
+    },
+    "staff_ids": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+    },
+    "timing_ids": {
+      "bsonType": "objectId"
+    },
+    "workspace_id": {
+      "bsonType": "objectId"
+    }
+  }
+}NUL 

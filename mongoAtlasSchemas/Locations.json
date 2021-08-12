@@ -1,0 +1,11 @@
+{
+  "title": "Location",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "name": {
+      "bsonType": "string"
+    }
+  }
+}

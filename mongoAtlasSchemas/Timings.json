@@ -1,0 +1,49 @@
+{
+  "title": "Timing",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "breaktime": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "end_time": {
+            "bsonType": "string"
+          },
+          "start_time": {
+            "bsonType": "string"
+          }
+        }
+      }
+    },
+    "events_ids": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+    },
+    "location_setting_ids": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+    },
+    "site_id": {
+      "bsonType": "objectId"
+    },
+    "time_zone": {
+      "bsonType": "string"
+    },
+    "work_day_name": {
+      "bsonType": "string"
+    },
+    "workspace_ids": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+    }
+  }
+}

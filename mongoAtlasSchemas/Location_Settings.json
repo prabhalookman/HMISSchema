@@ -1,0 +1,31 @@
+{
+  "title": "Location_Setting",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "active": {
+      "bsonType": "bool"
+    },
+    "location_id": {
+      "bsonType": "objectId"
+    },
+    "oncall": {
+      "bsonType": "object",
+      "properties": {
+        "client_will_call": {
+          "bsonType": "bool"
+        },
+        "staff_will_call": {
+          "bsonType": "bool"
+        }
+      }
+    },
+    "site_id": {
+      "bsonType": "objectId"
+    },
+    "workspace_id": {
+      "bsonType": "objectId"
+    }
+  }
+}NUL 
