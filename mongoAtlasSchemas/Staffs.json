@@ -36,3 +36,27 @@
     }
   }
 }
+
+////
+{
+  "event_ids": {
+    "foreign_key": "_id",
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Events",
+    "is_list": true
+  },
+  "timing_ids": {
+    "foreign_key": "_id",
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Timings",
+    "is_list": false
+  },
+  "workspace_id": {
+    "foreign_key": "_id",
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Workspaces",
+    "is_list": false
+  },
+  "address_ids": {
+    "foreign_key": "_id",
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Addresses",
+    "is_list": false
+  }
+}

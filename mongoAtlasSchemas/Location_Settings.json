@@ -28,4 +28,23 @@
       "bsonType": "objectId"
     }
   }
-}NUL 
+}
+
+///
+{
+  "site_id": {
+    "foreign_key": "_id",
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Sites",
+    "is_list": false
+  },
+  "workspace_id": {
+    "foreign_key": "_id",
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Workspaces",
+    "is_list": false
+  },
+  "location_id": {
+    "foreign_key": "_id",
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Locations",
+    "is_list": false
+  }
+}

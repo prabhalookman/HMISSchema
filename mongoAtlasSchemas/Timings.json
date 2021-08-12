@@ -47,3 +47,27 @@
     }
   }
 }
+
+///
+{
+  "events_ids": {
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Events",
+    "foreign_key": "_id",
+    "is_list": true
+  },
+  "location_setting_ids": {
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Location_Settings",
+    "foreign_key": "_id",
+    "is_list": true
+  },
+  "site_id": {
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Sites",
+    "foreign_key": "_id",
+    "is_list": false
+  },
+  "workspace_ids": {
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Workspaces",
+    "foreign_key": "_id",
+    "is_list": true
+  }
+}

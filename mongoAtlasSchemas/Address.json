@@ -41,3 +41,17 @@
     }
   }
 }
+
+////
+{
+  "site_id": {
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Sites",
+    "foreign_key": "_id",
+    "is_list": false
+  },
+  "workspace_id": {
+    "ref": "#/relationship/mongodb-atlas/HMISV2/Workspaces",
+    "foreign_key": "_id",
+    "is_list": false
+  }
+}
