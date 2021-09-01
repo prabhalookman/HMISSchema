@@ -1,0 +1,154 @@
+type Staff {
+    _id: ObjectId
+    avatar_or_icon: String
+    avatar_or_icon_path: String
+    color_code: String
+    created_at: DateTime
+    created_by: Staff
+    deleted_at: DateTime
+    description: String
+    display_name: String
+    email: String
+    email_verified_date_time: DateTime
+    employement_from: DateTime
+    employement_to: DateTime
+    event_staff_mapping_ids: [Events_satff_mapping]
+    experience_month: Int
+    experience_year: Int
+    first_name: String
+    gender: String
+    is_email_verified: Boolean
+    last_name: String
+    name: String
+    phone: [StaffPhone]
+    showSocialShare: Boolean
+    site_id: Site
+    site_owener: Boolean
+    slug: String
+    social_network: [StaffSocial_network]
+    sortingId: Int
+    staff_detail_id: [Staffdetail]
+    title: String
+    updated_at: DateTime
+    user_id: User
+    workspace_ids: [Workspace]
+  }
+
+  type Staffdetail {
+    _id: ObjectId
+    active: Boolean
+    address_ids: [Address]
+    booking_url: String
+    business_id: [Business]
+    business_timings: Boolean
+    created_at: DateTime
+    created_by: Staff
+    deafult_calendar_view: String
+    delete: Boolean
+    deleted_at: DateTime
+    events_ids: [Event]
+    invitationStatus: String
+    invitation_status_accept: Boolean
+    is_login: Boolean
+    is_service_provider: Boolean
+    is_sync_enabled: Boolean
+    location_setting_ids: [Locationsetting]
+    paid_plan_commission: Boolean
+    site_id: Site
+    sortingId: Int
+    sorting_id: Int
+    staff_commission: Boolean
+    sync: [StaffdetailSync]
+    timing_ids: [Timing]
+    timings: [ObjectId]
+    updated_at: DateTime
+    workspace_id: [Workspace]
+  }
+
+  type Business {
+    _id: ObjectId
+    accessible: Boolean
+    active: Boolean
+    avatar_or_icon: String
+    avatar_or_icon_path: String
+    business_branch: String
+    business_info_ids: [Businessinfo]
+    color_code: String
+    created_at: DateTime
+    created_by: Staff
+    delete: Boolean
+    deleted_at: DateTime
+    description: String
+    display_name: String
+    email_signature: String
+    name: String
+    showSocialShare: Boolean
+    site_id: Site
+    social_network: [BusinessSocial_network]
+    staff_size: Int
+    type: String
+    updated_at: DateTime
+    web_url: String
+    workspace_id: [Workspace]
+  }
+
+  type Businessinfo {
+    _id: ObjectId
+    accessible: Boolean
+    active: Boolean
+    address_ids: [Address]
+    bookingLinks: String
+    business_category: [Businesscategory]
+    business_hour_end: Int
+    business_hour_start: Int
+    business_sub_category: [Businesscategory]
+    created_at: DateTime
+    created_by: Staff
+    date_format: String
+    delete: Boolean
+    deleted_at: DateTime
+    first_day: Int
+    is_tax: Boolean
+    policy: BusinessinfoPolicy
+    restrictedDays: [DateTime]
+    site_id: Site
+    tax_no: String
+    tax_percentage: Int
+    time_format_id: Timeformat
+    time_zone: String
+    timing_ids: [Timing]
+    updated_at: DateTime
+    workspace_id: [Workspace]
+  }
+
+  type Timing {
+    _id: ObjectId
+    business_hour: Boolean
+    business_location_setting_ids: [Locationsetting]
+    created_at: DateTime
+    created_by: Staff
+    custom_hour: Boolean
+    deleted_at: DateTime
+    include_weekends: Boolean
+    location_setting_ids: [Locationsetting]
+    site_id: Site
+    time_zone: String
+    timing_order: Float
+    timings: [TimingTiming]
+    type: String
+    updated_at: DateTime
+    workspace_ids: [Workspace]
+  }
+
+  type TimingTiming {
+    breaktime: [TimingTimingBreaktime]
+    end_time: String
+    is_override_block: Boolean
+    name: String
+    recurringRule: TimingTimingRecurringRule
+    service_ids: [ObjectId]
+    start_time: String
+    work_day_duration: Float
+    work_day_id: Float
+    work_day_name: String
+  }

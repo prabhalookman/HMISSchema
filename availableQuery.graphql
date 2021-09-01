@@ -1,0 +1,173 @@
+## site_id - 60e2eead5a12d07c2bef058c
+## workspace_id  - 60e300635a12d07c2bef0602
+
+## -----
+Navaneeth - Custom Hours - StaffId : 60ed2287d8dfc8966f547ade, staff_detail_id : 60f04f3e70da4e9694f41765
+Navaneeth_BH - Business Hours - StaffId : 612ee8133b64c2a30642557a, staff_detail_id : 612ee8133b64c2a30642557b
+## -----
+## staffdetails(query: { location_setting_ids_exists:true })
+
+
+/* Sftaff */
+query{
+  staffs(query:{name_in:["Ajay-j"]}){
+    _id
+    name
+    staff_detail_id{
+      _id      
+    }
+  }
+}
+
+60ed2287d8dfc8966f547ade
+
+query{
+  staff(query:{_id:"60ed2287d8dfc8966f547ade"}){
+    _id
+    name
+    staff_detail_id{
+      _id      
+    }
+  }
+}
+
+## staffdetail  - Navaneeth
+query {
+    staffdetail(query: { _id: "612ee8133b64c2a30642557b" }) {
+      _id
+      active
+      address_ids {
+        _id
+        country
+      }
+      booking_url
+      business_id {
+        _id
+        display_name
+      }
+      business_timings
+      deafult_calendar_view
+      delete
+      events_ids {
+        _id
+        timing_ids {
+          _id
+          type
+          include_weekends
+          timings {
+            name
+            work_day_id
+            work_day_name
+          }
+          business_location_setting_ids {
+            _id
+          }
+          location_setting_ids {
+            _id
+            inperson {
+              buinsess_address
+              buinsess_id {
+                _id
+                name
+                display_name
+              }
+            }
+            oncall {
+              client_will_call
+            }
+            video {
+              type
+            }
+            location_id {
+              type
+              name
+            }
+          }
+        }
+      }
+      invitationStatus
+      invitation_status_accept
+      is_login
+      is_service_provider
+      is_sync_enabled
+      location_setting_ids {
+        _id
+        inperson {
+          buinsess_address
+          buinsess_id {
+            _id
+            name
+            display_name
+          }
+        }
+        oncall {
+          client_will_call
+        }
+        video {
+          type
+        }
+        location_id {
+          type
+          name
+        }
+      }
+      paid_plan_commission
+      product_commission
+      service_commission
+      site_id {
+        _id
+        name
+      }
+      sortingId
+      sorting_id
+      staff_commission
+      staff_group_id {
+        _id
+        group_name
+      }
+      sync {
+        key
+        type
+      }
+      timing_ids: timing_ids {
+        _id
+        type
+        include_weekends
+        timings {
+          name
+          work_day_id
+          work_day_name
+        }
+        business_location_setting_ids {
+          _id
+        }
+        location_setting_ids {
+          _id
+          inperson {
+            buinsess_address
+            buinsess_id {
+              _id
+              name
+              display_name
+            }
+          }
+          oncall {
+            client_will_call
+          }
+          video {
+            type
+          }
+          location_id {
+            type
+            name
+          }
+        }
+      }
+      voucher_commission
+      workspace_ids {
+        _id
+        name
+      }
+    }
+  }
+  
